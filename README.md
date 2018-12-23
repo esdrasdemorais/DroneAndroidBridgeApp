@@ -1,8 +1,8 @@
-# Android-Bridge-App
+# DroneAndroidBridgeApp
 
 ## What is this?
 
-The Android Bridge App allows efficient development of Android applications. 
+The Drone Android Bridge App allows efficient development of Android applications. 
 
 Many DJI products require the Android device to be connected directly through USB to a remote controller, which means the Android device can only be connected to the PC through WiFi debugging. While workable, development is slow as resource intensive tasks such as profiling or transferring a new build to the mobile device can take a long time. In addition, the Android Studio emulator cannot be used to do any development.
 
@@ -17,14 +17,14 @@ This makes it easier develop, debug, setup CI environments, share devices in a t
 
 ## Compatibility
 
-* The Bridge App is compatible with the Android DJI Mobile SDK v4.0 and above.
-* The Bridge App is compatible with all DJI RC
+* The Drone Android Bridge App is compatible with the Android DJI Mobile SDK v4.0 and above.
+* The Drone Android Bridge App is compatible with all DJI RC
 
 ## Setup
 
 When using the bridge app, two Android devices are used (or one device with the bridge app and the emulator):
 
-1. An Android device with the BridgeApp apk that is connected directly to the remote controller
+1. An Android device with the DroneAndroidBridgeApp apk that is connected directly to the remote controller
 2. An Android device running an SDK based application
 
 **Both devices** must be able to resolve each other's IP address - and should be **used on the same network**.
@@ -87,29 +87,29 @@ new DJISDKManager.SDKManagerCallback() {
 
 * RC indicator:
 
-  * ![alt text](./images/rcRed.png) No USB device connected to BridgeApp
+  * ![alt text](./images/rcRed.png) No USB device connected to DroneAndroidBridgeApp
   * ![alt text](./images/rc_purple.png) Connected device is not supported or not working properly
   * ![alt text](./images/rcGreen.png) DJI RC is connected
 
 
 * Connection indicator
   * ![alt text](./images/signalRed.png) No SDK Application is connected to Bridge
-  * ![alt text](./images/signalGreen.png) There is at least one SDK Application connected to BridgeApp  
+  * ![alt text](./images/signalGreen.png) There is at least one SDK Application connected to DroneAndroidBridgeApp  
 
-* Host IP Address: This is the address of the BridgeApp. To connect to it, pass in the displayed ip value to `enableBridgeModeWithBridgeAppIP` method in `SDKManager`. 
+* Host IP Address: This is the address of the DroneAndroidBridgeApp. To connect to it, pass in the displayed ip value to `enableBridgeModeWithBridgeAppIP` method in `SDKManager`. 
 
-* App Version: Displays the current version of the BridgeApp. This is not the version of the DJI SDK.
+* App Version: Displays the current version of the DroneAndroidBridgeApp. This is not the version of the DJI SDK.
 
 * Functionalities:
 
-  * BridgeApp supports conntection via Wifi or Eithernet ( using USB Adapter and CrystalSky)
-  * BirdgeApp acceptes multiple simultinous connections. This is helpful to share one Aircraft with many developers.
+  * DroneAndroidBridgeApp supports conntection via Wifi or Eithernet ( using USB Adapter and CrystalSky)
+  * DroneAndroidBirdgeApp acceptes multiple simultinous connections. This is helpful to share one Aircraft with many developers.
 
 ## Feedback
 
-This is a beta version of the Bridge App. Please provide feedback in areas you think it could be improved or is unstable.
+This is a beta version of the Drone Android Bridge App. Please provide feedback in areas you think it could be improved or is unstable.
 
-Please use **Github Issue** or **email** [hai.vo@dji.com](hai.vo@dji.com) when you meet any problems of using this project. At a minimum please let us know:
+Please use **Github Issue** or **email** [esdrasdemorais@gmail.com](esdrasdemorais@gmail.com) when you meet any problems of using this project. At a minimum please let us know:
 
 * Which DJI Product you are using?
 * Which Android Device and Android System version you are using?
@@ -119,10 +119,8 @@ Please use **Github Issue** or **email** [hai.vo@dji.com](hai.vo@dji.com) when y
 
 ## License
 
-Android-Bridge-App is available under the MIT license. Please see the LICENSE file for more info.
+DroneAndroidBridgeApp is available under the MIT license. Please see the LICENSE file for more info.
 
 ## Join Us
 
-DJI is looking for all kinds of Software Engineers to continue building the Future of Possible. Available positions in Shenzhen, China and around the world. If you are interested, please send your resume to <software-sz@dji.com>. For more details, and list of all our global offices, please check <https://we.dji.com/jobs_en.html>.
-
-DJI 招软件工程师啦，based在深圳，如果你想和我们一起把DJI产品做得更好，请发送简历到 <software-sz@dji.com>.  详情请浏览 <https://we.dji.com/zh-CN/recruitment>.
+I am looking for newf oportunities of Software Engineers to continue building the Future of Possible. Available positions around the world. If you are interested, please send your oportunity to <esdrasdemorais@gmail.com>. For more details, and list of all our global informations, please check <http://esdrasmorais.com>.
