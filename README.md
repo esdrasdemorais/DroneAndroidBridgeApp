@@ -109,7 +109,7 @@ new DJISDKManager.SDKManagerCallback() {
 
 This is a beta version of the Drone Android Bridge App. Please provide feedback in areas you think it could be improved or is unstable.
 
-Please use **Github Issue** or **email** [esdrasdemorais@gmail.com](esdrasdemorais@gmail.com) when you meet any problems of using this project. At a minimum please let us know:
+Please use **Github Issue** or **email** [esdrasdemorais@gmail.com](esdrasdemorais@gmail.com) when you meet any problems of using this project. At a minimum please let me know:
 
 * Which DJI Product you are using?
 * Which Android Device and Android System version you are using?
@@ -123,4 +123,4 @@ DroneAndroidBridgeApp is available under the MIT license. Please see the LICENSE
 
 ## Join Us
 
-I am looking for newf oportunities of Software Engineers to continue building the Future of Possible. Available positions around the world. If you are interested, please send your oportunity to <esdrasdemorais@gmail.com>. For more details, and list of all our global informations, please check <http://esdrasmorais.com>.
+I am looking for newf oportunities of Software Engineers to continue building the Future of Possible. Available positions around the world. If you are interested, please send your oportunity to <esdrasdemorais@gmail.com>. For more details, and list of all me global informations, please check <http://esdrasmorais.com>.
